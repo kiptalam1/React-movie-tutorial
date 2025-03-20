@@ -4,10 +4,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-:root{
-    --border-radius: 0.5rem;
-    --shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    --space: 1rem;
+:root {
+	--border-radius: 0.5rem;
+	--shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	--space: 1rem;
+	--s-space: 0.5rem;
+	--primary: #f1356d;
+	--white: #fff;
 }
 body {
 	background-color: #f0f0f0;
@@ -16,5 +19,5 @@ body {
 	align-items: center;
 	min-width: 100vw;
 	min-height: 100vh;
-    gap: var(--space);
+	gap: var(--space);
 }
