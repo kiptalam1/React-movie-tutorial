@@ -4,14 +4,18 @@
     justify-content: center;
     align-items: center;
     gap: var(--space);
+    min-width: 100%;
+    max-width: 100%;
+
 }
 .searchForm{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: var(--space);
-    overflow: hidden;
-    gap: var(--space)
+    margin: 1rem auto;
+    gap: var(--space);
+    min-width: 600px;
+    max-width: 800px;
 }
 .searchInput {
     width: 70%;
@@ -23,7 +27,7 @@
     font-size: 1rem;
 }
 .searchBtn{
-    width: 30%;
+    width: 20%;
     padding: var(--s-space);
     border: none;
     outline: none;
@@ -33,4 +37,17 @@
     background-color: var(--primary);
     color: var(--white);
     cursor: pointer;
+}
+.moviesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space);
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem auto;
+    max-width: 90%;
+    gap: 10px;
+
+    /* border: 5px solid green; */
+
 }

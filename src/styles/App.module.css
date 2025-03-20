@@ -1,0 +1,18 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    color: black;
+    gap: var(--space);
+}
+/* .mainContent {
+	display: flex;
+	gap: var(--space);
+	width: 100%;
+	justify-content: center;
+	max-width: 1200px;
+	padding: var(--space);
+	border: 1px solid red;
+} */

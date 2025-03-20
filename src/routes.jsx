@@ -1,14 +1,21 @@
 import Favorites from "./pages/Favorites";
 import Home from "./pages/Home";
+import App from "./App";
 
 const routes = [
 	{
 		path: "/",
-		element: <Home />,
-	},
-	{
-		path: "favorites",
-		element: <Favorites />,
+		element: <App />,
+		children: [
+			{
+				index: true,
+				element: <Home />,
+			},
+			{
+				path: "favorites",
+				element: <Favorites />,
+			},
+		],
 	},
 ];
 
