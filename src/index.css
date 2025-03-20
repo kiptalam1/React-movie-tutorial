@@ -1,0 +1,20 @@
+* {
+	font-family: Poppins, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+    --border-radius: 0.5rem;
+    --shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --space: 1rem;
+}
+body {
+	background-color: #f0f0f0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 100vw;
+	min-height: 100vh;
+    gap: var(--space);
+}
