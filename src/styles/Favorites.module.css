@@ -1,0 +1,13 @@
+.favorites {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;    
+    align-items: center;
+}
+.moviesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
